@@ -102,7 +102,7 @@ class preload
 
                 require_once $file[0];
                 // Uncomment only for debugging (to inspect which files are included).
-                // Never use this in production - preload scripts must not generate output.
+                // Neever use this in production - preload scripts must not generate output.
                 // echo 'Loaded: ' . $file[0] . "\n";
             }
         }
